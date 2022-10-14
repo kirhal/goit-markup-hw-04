@@ -131,10 +131,18 @@ img {
 /* -------------- Hero section------------ */
 
 .section.hero {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
 
-  background-color: #2f303a;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-overlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   color: #fff;
 
   text-align: center;
@@ -142,7 +150,7 @@ img {
 .hero-title {
   margin-left: auto;
   margin-right: auto;
-  width: 696px;
+  max-width: 696px;
 
   text-transform: uppercase;
   font-weight: 900;
@@ -262,7 +270,7 @@ img {
 
 /* ------------- Footer section ----------- */
 
-.section.footer {
+.footer-box {
   padding-top: 60px;
   padding-bottom: 60px;
   text-decoration: none;
