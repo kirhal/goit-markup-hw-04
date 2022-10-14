@@ -1,5 +1,9 @@
 /* ---------- Common rules -----------*/
-
+:root {
+  --focus-hover-collor: #2196f3;
+  --icons-color: #afb1b8;
+  --icons-focus-collor: #ffffff;
+}
 body {
   background-color: #fff;
   color: #212121;
@@ -207,6 +211,16 @@ img {
 .benefits-list .item:not(:last-child) {
   margin-right: 30px;
 }
+.benefits-list .block {
+  display: flex;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f5f4fa;
+}
 
 /* ------------- Services section ----------- */
 
@@ -362,6 +376,7 @@ img {
 .example-list {
   display: flex;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 .example-list .title {
   margin-bottom: 4px;
@@ -395,4 +410,9 @@ img {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+}
+.example-list .item:hover,
+.example-list .item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
