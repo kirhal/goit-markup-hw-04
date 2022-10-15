@@ -53,7 +53,8 @@ ul {
 .example-list,
 .filter-list,
 .contacts-list,
-.clients-list {
+.clients-list,
+.socials-list {
   list-style-type: none;
 }
 img {
@@ -275,6 +276,8 @@ img {
   letter-spacing: 0.03em;
 }
 .team-member .desc {
+  margin-bottom: 16px;
+
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -282,6 +285,26 @@ img {
 }
 .member-pic {
   margin-bottom: 30px;
+}
+.team-member .socials {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 206px;
+  gap: 10px;
+  /* height: 44px; */
+}
+.team-member .block {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  justify-content: center;
+  align-items: center;
+
+  fill: var(--icons-color);
+  /* background-color: #2196f3;   */
 }
 
 /* ------------- Clients section ----------- */
