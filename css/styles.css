@@ -110,9 +110,10 @@ img {
 .link.contacts {
   color: #757575;
 }
-.link.contacts:hover,
-.link.contacts:focus {
-  color: #2196f3;
+.contacts-list .link.contacts:hover,
+.contacts-list .link.contacts:focus {
+  color: var(--focus-hover-collor);
+  fill: var(--focus-hover-collor);
 }
 .contacts-list {
   display: flex;
@@ -137,14 +138,8 @@ img {
 .contacts-list .link.contacts {
   display: flex;
   align-items: center;
-}
-.contacts-list .icon {
   fill: #757575;
-}
-.email-pic,
-.phone-pic {
-  display: inline-flex;
-  margin-right: 10px;
+  gap: 10px;
 }
 
 /* -------------- Hero section------------ */
@@ -306,7 +301,7 @@ img {
   width: 206px;
   gap: 10px;
 }
-.team-member .block {
+.socials-list .links {
   display: inline-flex;
   width: 44px;
   height: 44px;
@@ -316,9 +311,17 @@ img {
   align-items: center;
 
   fill: var(--icons-color);
-  /* background-color: #2196f3;   */
+  /* background-color: #000; */
 }
-
+.socials-list .block {
+  width: 20px;
+  height: 20px;
+}
+.socials-list .links:hover,
+.socials-list .links:focus {
+  fill: var(--icons-focus-collor);
+  background-color: var(--focus-hover-collor);
+}
 /* ------------- Clients section ----------- */
 .section.clients {
   padding-top: 94px;
@@ -390,6 +393,10 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+.link.contacts.footer:hover,
+.link.contacts.footer:focus {
+  color: var(--focus-hover-collor);
+}
 .footer .logo {
   display: inline-block;
   margin-bottom: 20px;
@@ -413,7 +420,7 @@ img {
   display: flex;
   gap: 10px;
 }
-.studio-socials .block {
+.studio-socials .links {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -423,6 +430,10 @@ img {
   border-radius: 50%;
 
   background: rgba(255, 255, 255, 0.1);
+}
+.studio-socials .block {
+  width: 20px;
+  height: 20px;
 }
 .studio-socials .icon {
   fill: #fff;
