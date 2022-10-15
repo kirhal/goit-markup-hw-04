@@ -337,7 +337,7 @@ img {
   gap: 30px;
   justify-content: center;
 }
-.clients-link-card {
+.clients-link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -345,11 +345,12 @@ img {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
-}
-.clients-link-icon {
   fill: var(--icons-color);
-  justify-content: center;
-  text-align: center;
+}
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--focus-hover-collor);
+  fill: var(--focus-hover-collor);
 }
 
 /* ------------- Footer section ----------- */
