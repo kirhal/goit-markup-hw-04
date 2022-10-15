@@ -87,7 +87,7 @@ img {
 }
 .site-nav {
   display: flex;
-  margin-right: 344px;
+  margin-right: 318px;
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -117,8 +117,9 @@ img {
 .contacts-list {
   display: flex;
 }
+
 .contacts-list .item:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 .contacts-list .link {
   display: inline-block;
@@ -132,6 +133,18 @@ img {
 }
 .header-box {
   border-bottom: 1px solid #ececec;
+}
+.contacts-list .link.contacts {
+  display: flex;
+  align-items: center;
+}
+.contacts-list .icon {
+  fill: #757575;
+}
+.email-pic,
+.phone-pic {
+  display: inline-flex;
+  margin-right: 10px;
 }
 
 /* -------------- Hero section------------ */
