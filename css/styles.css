@@ -309,24 +309,14 @@ img {
   border: 1px solid var(--icons-color);
   border-radius: 4px;
   justify-content: center;
-  align-items: center;   
+  align-items: center;
 }
 .clients-link-icon {
   fill: var(--icons-color);
   justify-content: center;
   text-align: center;
 }
-/* .clients-list .link {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-  width: 170px;
-  height: 92px;
-  cursor: pointer;
 
-  outline: 1px solid red;
- 
-} */
 /* ------------- Footer section ----------- */
 
 .footer-box {
