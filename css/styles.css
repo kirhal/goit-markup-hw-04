@@ -311,12 +311,8 @@ img {
   align-items: center;
 
   fill: var(--icons-color);
-  /* background-color: #000; */
 }
-.socials-list .block {
-  width: 20px;
-  height: 20px;
-}
+
 .socials-list .links:hover,
 .socials-list .links:focus {
   fill: var(--icons-focus-collor);
@@ -431,10 +427,7 @@ img {
 
   background: rgba(255, 255, 255, 0.1);
 }
-.studio-socials .block {
-  width: 20px;
-  height: 20px;
-}
+
 .studio-socials .icon {
   fill: #fff;
 }
